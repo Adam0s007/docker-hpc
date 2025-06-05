@@ -31,7 +31,7 @@ mkdir -p ~/docker_hpc
 On your local machine, copy the dataset and notebook to Ares using:
 
 ```
-scp ./beer.ipynb USER@ares.cyfronet.pl:~/docker_hpc/beer.csv
+scp ./beer.ipynb USER@ares.cyfronet.pl:~/docker_hpc/beer.ipynb
 scp ./workflow_healthcare.ipynb USER@ares.cyfronet.pl:~/docker_hpc/workflow_healthcare.ipynb
 ```
 
