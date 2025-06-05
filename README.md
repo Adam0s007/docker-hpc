@@ -31,8 +31,8 @@ mkdir -p ~/docker_hpc
 On your local machine, copy the dataset and notebook to Ares using:
 
 ```
-scp ./nobel.csv USER@ares.cyfronet.pl:~/docker_hpc/nobel.csv
-scp ./notebook.ipynb USER@ares.cyfronet.pl:~/docker_hpc/notebook.ipynb
+scp ./beer.ipynb USER@ares.cyfronet.pl:~/docker_hpc/beer.csv
+scp ./workflow_healthcare.ipynb USER@ares.cyfronet.pl:~/docker_hpc/workflow_healthcare.ipynb
 ```
 
 ---
@@ -92,7 +92,7 @@ Once it's ready, it will display a Jupyter Notebook URL — **copy the full URL 
 
 ### 8. Open the notebook and connect to the kernel
 
-1. Open `notebook.ipynb` in VS Code.
+1. Open `beer.ipynb` or `workflow_healthcare` in VS Code.
 2. Click the kernel name in the top right corner → select **Existing Jupyter Server...**
    ![existing-jupyter-server](images/existing-jupyter-server.png)
 3. Paste the full Jupyter URL with the token.
